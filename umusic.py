@@ -10,7 +10,7 @@ def main(link=None, folder=None):
 		print("YouTube's link required")
 
 	try:
-		out_path = os.getcwd() + "\\"
+		out_path = os.getcwd() + "\\" + "Downloads\\Music\\"
 		if folder is not None:
 			out_path += folder
 		
